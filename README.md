@@ -1,8 +1,8 @@
 # BRIEF
-# vimconf, a set plugins with basic vim configuration for C/C++ development
+# vimconf, an INITIAL set plugins with basic vim configuration for C/C++ development
 
 # INSTALL INSTRUCTIONS
-clone to your .vim directory in your home directory (create one if it doesn't exist)
+clone and then copy the contents to your .vim directory in your home directory (create one if it doesn't exist)
 
 # PLUGINS LIST
 cscope_dynamic : https://github.com/erig0/cscope_dynamic
