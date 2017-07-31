@@ -1,15 +1,17 @@
-" set 4 space tabbing 
 set tabstop=4
 set expandtab
-
-set nocompatible                                 
+set nocompatible              " be iMproved, required                           
 set encoding=utf-8                                                              
 set colorcolumn=80                                                              
 set scrolloff=8                                                                 
 set cursorline                                                                  
-set t_Co=256                                                                                
-filetype off                                       
-                                                                                
+set t_Co=256
+syntax on
+colorscheme desert
+autocmd InsertEnter * hi Normal guibg=#4D4D4D
+autocmd InsertLeave * hi Normal guibg=#333333
+filetype off                  " required                                        
+
 " set the runtime path to include Vundle and initialize                         
 set rtp+=~/.vim/autoload/Vundle.vim                                               
 call vundle#begin()                                                             
@@ -106,3 +108,5 @@ let g:easytags_dynamic_files = 0
 let g:easytags_always_enabled = 0
 let g:easytags_include_members = 1
 let b:easytags_auto_highlight = 0 
+
+
