@@ -61,9 +61,6 @@ name = "lang#python"
 name = "lang#dockerfile"
 
 [[layers]]
-name = "lang#markdown"
-
-[[layers]]
 name = "lang#sh"
 
 [[layers]]
