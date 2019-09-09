@@ -1,6 +1,6 @@
 # SpaceVim C/C++/Objective C IDE  
 
-## Installation of spacevim
+## Installation (Debuntu)
 
 ### Prerequisites
 
