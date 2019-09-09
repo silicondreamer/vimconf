@@ -50,6 +50,11 @@ name = "git"
 name = "shell"
 
 [[layers]]
+name = 'lang#markdown'
+enableWcwidth = 1
+listItemIndent = 1
+
+[[layers]]
 name = "lang#c"
 
 [[layers]]
