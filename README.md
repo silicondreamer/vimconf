@@ -1,14 +1,24 @@
-# BRIEF
-# vimconf, an INITIAL set plugins with basic vim configuration for C/C++ development
+Installation of spacevim :
 
-# INSTALL INSTRUCTIONS
-clone and then copy the contents to your .vim directory in your home directory (create one if it doesn't exist)
+sudo apt-get install git curl 
+curl -sLf https://spacevim.org/install.sh | bash
 
-# PLUGINS LIST
-cscope_dynamic : https://github.com/erig0/cscope_dynamic
-NERD_tree : https://github.com/scrooloose/nerdtree
-supertab : https://github.com/ervandew/supertab
-syntastic: https://github.com/vim-syntastic/syntastic/blob/master/LICENCE
-airline: https://github.com/vim-airline/vim-airline
-airline-themes: https://github.com/vim-airline/vim-airline-themes
-easytags: https://github.com/xolox/vim-easytags
+...After SpaceVim being installed, launch vim and SpaceVim will automatically install plugins.
+
+The default configuration file of SpaceVim is ~/.SpaceVim.d/init.toml
+copy this local c/c++ IDE version over it.
+
+The default font used by SpaceVim is SauceCodePro Nerd Font Mono. It is recommended to install it on your system if you wish to use it.
+
+Debian instructions:
+    Install a font manually by downloading the appropriate .ttf or otf files and placing them into /usr/local/share/fonts
+
+described here:
+https://spacevim.org/quick-start-guide/#linux-and-macos
+
+SHORTCUTS!!
+
+configuration editing, spacebar f v d
+
+SpaceVim uses vimfiler as the default file tree, and the default key binding is <F3>. 
+(And SpaceVim also provides SPC f t and SPC f T to open the file tree.)
