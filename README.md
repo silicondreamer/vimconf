@@ -8,11 +8,6 @@ curl -sLf https://spacevim.org/install.sh | bash
 The default configuration file of SpaceVim is ~/.SpaceVim.d/init.toml
 copy this local c/c++ IDE version over it.
 
-The default font used by SpaceVim is SauceCodePro Nerd Font Mono. It is recommended to install it on your system if you wish to use it.
-
-Debian instructions:
-    Install a font manually by downloading the appropriate .ttf or otf files and placing them into /usr/local/share/fonts
-
 described here:
 https://spacevim.org/quick-start-guide/#linux-and-macos
 
