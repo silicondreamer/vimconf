@@ -49,11 +49,6 @@ name = "git"
 name = "shell"
 
 [[layers]]
-name = 'lang#markdown'
-enableWcwidth = 1
-listItemIndent = 1
-
-[[layers]]
 name = "lang#c"
 
 [[layers]]
@@ -81,3 +76,4 @@ auto-completion-tab-key-behavior = "smart"
 name = 'shell'
 default_position = 'top'
 default_height = 30
+
