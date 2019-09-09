@@ -35,7 +35,6 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
-    guifont = "SauceCodePro Nerd Font Mono:h11"
     default_indent = 4 
     expand_tab = true
     filetree_direction = "left" 
