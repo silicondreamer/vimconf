@@ -1,4 +1,4 @@
-# SpaceVim Configuration to be up and running in seconds
+# SpaceVim C/C++/Objective C IDE  
 
 ## Installation of spacevim
 
