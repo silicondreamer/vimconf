@@ -36,12 +36,13 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
     guifont = "SauceCodePro Nerd Font Mono:h11"
-    spacevim_default_indent = 4
+    default_indent = 4 
+    expand_tab = true
     filetree_direction = "left" 
 
 [[layers]]
 name = "colorscheme"
-
+    
 [[layers]]
 name = "git"
 
