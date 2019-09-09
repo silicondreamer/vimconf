@@ -23,7 +23,8 @@
     #colorscheme = "NeoSolarized"
     #colorscheme = "hybrid"
     #colorscheme = "base16-solarized-dark"   
-    colorscheme_bg = "dark"
+    #colorscheme_bg = "dark"
+    
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = true
@@ -42,7 +43,28 @@
 name = "colorscheme"
 
 [[layers]]
+name = "git"
+
+[[layers]]
+name = "shell"
+
+[[layers]]
 name = "lang#c"
+
+[[layers]]
+name = "lang#lua"
+
+[[layers]]
+name = "lang#python"
+
+[[layers]]
+name = "lang#dockerfile"
+
+[[layers]]
+name = "lang#markdown"
+
+[[layers]]
+name = "lang#sh"
 
 [[layers]]
 name = "format"
